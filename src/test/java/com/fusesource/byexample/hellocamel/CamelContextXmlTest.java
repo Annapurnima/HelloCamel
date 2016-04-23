@@ -33,7 +33,7 @@ public class CamelContextXmlTest extends CamelSpringTestSupport {
     public void testCamelRoute() throws Exception {
         String response = inputEndpoint.requestBody((Object) "Camel", String.class);
 
-        assertEquals("HeLLo Camel", response);
+        assertEquals("HELLo Camel", response);
     }
 
     @Override
