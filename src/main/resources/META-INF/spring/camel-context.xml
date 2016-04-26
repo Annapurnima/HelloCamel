@@ -25,7 +25,7 @@
     <route id="HelloWorldRoute">
         <from uri="jetty:http://0.0.0.0:8888/hellocamel"/>
         <transform>
-            <language language="simple">HELLo ${body}</language>
+            <language language="simple">HElO ${body}</language>
         </transform>
     </route>
 </camelContext>
